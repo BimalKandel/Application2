@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.Width100{
+  width: 100%;
+}
+.mdWidth70{
+  width: 70%;
+}
+.bd-sidebar{
+  background-color: #151515;
+}
+.bg-dark{
+  background-color: #151515 !important;
+}
+nav {
+  position: initial;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #151515;
+  height: 100%;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.image {
+  width: 49%;
+  float: right;
+}
+.navbar-expand-lg .navbar-nav{
+  flex-direction: column  !important;
+  -ms-flex-direction: column !important;
+}
+.navbar-toggler {
+  color: rgba(156,9,17,.9) !important;
+  border-color: rgba(156,9,17,.5) !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.image {
+  width: 49%;
+  float: right;
+}
+@media only screen and (min-width: 992px) {
+  .max-height-lg{
+    height: 100vh;
+    overflow-y: auto;
+  }
+}
